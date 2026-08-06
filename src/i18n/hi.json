@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "farmerService": "किसान सेवा",
+    "fpoDashboard": "FPO डैशबोर्ड",
+    "commandCenter": "राष्ट्रीय कमान केंद्र",
+    "online": "ऑनलाइन",
+    "offline": "ऑफ़लाइन",
+    "language": "भाषा",
+    "en": "English",
+    "hi": "हिन्दी (Hindi)",
+    "ta": "தமிழ் (Tamil)",
+    "cropSuitability": "फसल अनुकूलता",
+    "agroMeteorology": "कृषि-मौसम विज्ञान",
+    "marketPrices": "बाजार मूल्य (MSP)",
+    "nearbyFPOs": "निकटवर्ती FPO",
+    "soilHealth": "मृदा स्वास्थ्य कार्ड",
+    "subsidies": "सब्सिडी और योजनाएं",
+    "yieldPrediction": "उपज अनुमान",
+    "financialAssistance": "वित्तीय सहायता"
+  },
+  "hero": {
+    "mission": "राष्ट्रीय तिलहन मिशन",
+    "title": "फसल विविधीकरण के लिए डिजिटल सलाह",
+    "subtitle": "उच्च उपज और जल-कुशल तिलहन खेती की ओर बढ़ने के लिए एआई-संचालित कृषि संबंधी सिफारिशों के साथ किसानों को सशक्त बनाना।",
+    "startAnalysis": "फार्म विश्लेषण शुरू करें",
+    "farmersEnrolled": "पंजीकृत किसान",
+    "waterSaved": "लीटर पानी बचाया गया"
+  },
+  "diagnostics": {
+    "title": "एआई डायग्नोस्टिक्स",
+    "subtitle": "तत्काल एआई विश्लेषण के लिए अपनी फसल, पत्ती या मिट्टी की फोटो अपलोड करें।",
+    "uploadPrompt": "फोटो लें या अपलोड करें",
+    "uploadChange": "फोटो बदलें",
+    "uploadSupport": "पत्ती रोग, कीट का पता लगाने और मिट्टी विश्लेषण का समर्थन करता है",
+    "analysisFailed": "विश्लेषण विफल रहा",
+    "tryAgain": "पुनः प्रयास करें",
+    "loadingUpload": "छवि अपलोड हो रही है...",
+    "loadingAnalyze": "छवि का विश्लेषण हो रहा है...",
+    "loadingIdentify": "समस्याओं की पहचान हो रही है...",
+    "loadingReport": "एआई रिपोर्ट तैयार हो रही है...",
+    "poweredBy": "जेमिनी एआई द्वारा संचालित (एनआईसी सुरक्षित सर्वर)",
+    "identified": "{{subject}} पहचाना गया",
+    "match": "% मिलान",
+    "disease": "रोग / समस्या",
+    "healthy": "स्वस्थ",
+    "severity": "गंभीरता",
+    "symptoms": "लक्षण",
+    "treatment": "अनुशंसित उपचार",
+    "preventive": "निवारक उपाय",
+    "fertilizer": "उपयुक्त उर्वरक",
+    "scheme": "सरकारी योजना",
+    "nextInspection": "अगला निरीक्षण",
+    "scanAnother": "दूसरा स्कैन करें"
+  },
+  "wizard": {
+    "stepCrop": "वर्तमान फसल",
+    "stepSoil": "मिट्टी प्रोफाइल",
+    "stepShift": "फसल बदलाव रणनीति",
+    "title": "फार्म विश्लेषण विज़ार्ड",
+    "back": "वापस",
+    "next": "अगला कदम",
+    "generating": "फसल बदलाव रणनीति तैयार की जा रही है...",
+    "selectCrop": "अपनी वर्तमान अधिक पानी वाली फसल का चयन करें:",
+    "acreage": "रकबा (एकड़ में)",
+    "irrigation": "सिंचाई विधि",
+    "proceedSoil": "मिट्टी और पानी की ओर बढ़ें",
+    "soilAnalysis": "मिट्टी का विश्लेषण",
+    "runDiagnostics": "एआई डायग्नोस्टिक्स चलाएं",
+    "analyzeSoil": "मिट्टी प्रोफाइल का विश्लेषण करें",
+    "orManual": "या मैन्युअल रूप से चुनें:",
+    "generateStrategy": "बदलाव रणनीति तैयार करें"
+  },
+  "common": {
+    "loading": "लोड हो रहा है..."
+  },
+  "results": {
+    "officialReport": "आधिकारिक सलाहकार रिपोर्ट",
+    "generatedBy": "KrishiMitraOS कृषि विज्ञान इंजन द्वारा उत्पन्न",
+    "startNew": "नया विश्लेषण शुरू करें",
+    "procurementCenters": "अधिकृत खरीद केंद्र"
+  },
+  "fpo": {
+    "title": "FPO निदेशक डैशबोर्ड",
+    "network": "महाराष्ट्र नेटवर्क",
+    "subtitle": "आपके FPO क्लस्टर में तेल के बीज संक्रमण मेट्रिक्स",
+    "totalMembers": "कुल सदस्य",
+    "acrossFpos": "3 FPO में",
+    "activeIntentions": "सक्रिय इरादे",
+    "thisSeason": "इस खरीफ सीज़न",
+    "projectedRevenue": "अनुमानित आय",
+    "netProfit": "शुद्ध लाभ अनुमान",
+    "waterSaved": "बचाया गया पानी",
+    "vsBaseline": "धान बेसलाइन की तुलना में",
+    "monthlyTokens": "मासिक इरादा टोकन",
+    "issued": "जारी किया गया",
+    "fulfilled": "पूरा किया गया",
+    "cropIntentDistribution": "फसल इरादा वितरण",
+    "groundwaterSavings": "जिलेवार भूजल बचत (m³)",
+    "saved": "बचाया",
+    "rosterTitle": "FPO नेटवर्क रोस्टर",
+    "members": "सदस्य",
+    "registered": "पंजीकृत ✓",
+    "fpoNames": {
+      "vidarbha": "विदर्भ तिलहन FPO",
+      "marathwada": "मराठवाड़ा मूंगफली समूह",
+      "khandesh": "खानदेश सरसों उत्पादक"
+    },
+    "locations": {
+      "kamptee": "काम्पटी",
+      "nagpur": "नागपुर",
+      "udgir": "उदगीर",
+      "latur": "लातूर",
+      "shirpur": "शिरपुर",
+      "dhule": "धुले"
+    }
+  },
+  "gov": {
+    "title": "कमान केंद्र: राष्ट्रीय तिलहन मिशन",
+    "badge": "आधिकारिक टेलीमेट्री",
+    "subtitle": "रीयल-टाइम अपनाने के मेट्रिक्स और नीति प्रभाव · महाराष्ट्र · खरीफ 2026",
+    "status": "सिस्टम स्थिति: लाइव",
+    "farmerAdoptions": "किसान अपनाना",
+    "yoyGrowth": "+54% वार्षिक वृद्धि",
+    "areaUnderOilseeds": "तिलहन के अंतर्गत क्षेत्र",
+    "projected2026": "2026 अनुमानित",
+    "groundwaterSaved": "भूजल की बचत",
+    "vsBaseline": "धान बेसलाइन की तुलना में",
+    "mspBenefit": "MSP लाभ वितरित",
+    "dbt": "प्रत्यक्ष लाभ हस्तांतरण",
+    "adoptionTrajectory": "किसान अपनाने की राह (2022-2026)",
+    "districtAdoption": "ज़िला अपनाने की दर (%)",
+    "mspImpact": "MSP बनाम बाजार मूल्य विश्लेषण",
+    "notifiedCrop": "अधिसूचित फसल",
+    "msp": "न्यूनतम समर्थन मूल्य (₹/किग्रा)",
+    "marketRate": "वर्तमान बाजार दर",
+    "farmerBenefit": "प्रत्यक्ष किसान लाभ",
+    "total": "कुल",
+    "activeInterventions": "सक्रिय हस्तक्षेप",
+    "crops": {
+      "soybean": "सोयाबीन",
+      "mustard": "सरसों",
+      "groundnut": "मूंगफली",
+      "sunflower": "सूरजमुखी"
+    },
+    "alerts": {
+      "alert1": {
+        "title": "तिलहन मिशन लक्ष्य: ट्रैक पर",
+        "desc": "खरीफ 2026 के लिए 22,000 किसानों को अपनाने का अनुमान - 18,000 के बेसलाइन लक्ष्य से 22% अधिक।"
+      },
+      "alert2": {
+        "title": "धुले जिला पिछड़ रहा है",
+        "desc": "अपनाना वर्तमान में राज्य के 30% लक्ष्य के मुकाबले 19% है। FPO कवरेज में हस्तक्षेप की आवश्यकता है।"
+      },
+      "alert3": {
+        "title": "MSP वितरण तैयार",
+        "desc": "1,842 सत्यापित किसानों के लिए ₹12.4 करोड़ का MSP खरीद भुगतान सफलतापूर्वक कतारबद्ध किया गया।"
+      }
+    }
+  },
+  "login": {
+    "ministry": "कृषि एवं किसान कल्याण मंत्रालय",
+    "emailAddress": "ईमेल पता",
+    "password": "पासवर्ड",
+    "rememberMe": "मुझे याद रखें",
+    "forgotPassword": "अपना पासवर्ड भूल गए?",
+    "signIn": "साइन इन करें",
+    "authenticating": "प्रमाणीकरण हो रहा है...",
+    "demoCredentials": "डेमो क्रेडेंशियल्स",
+    "farmer": "किसान",
+    "fpoOfficer": "FPO अधिकारी",
+    "govOfficer": "सरकारी अधिकारी",
+    "loginFailed": "लॉगिन विफल रहा।"
+  }
+}

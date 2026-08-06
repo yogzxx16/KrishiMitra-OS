@@ -1,0 +1,25 @@
+[
+  {
+    "id": "u-001",
+    "name": "Ramesh Kumar",
+    "email": "farmer@agricoop.gov.in",
+    "password": "Farmer@123",
+    "role": "farmer"
+  },
+  {
+    "id": "u-002",
+    "name": "Meena Lakshmi",
+    "email": "fpo@agricoop.gov.in",
+    "password": "FPO@123",
+    "role": "fpo"
+  },
+  {
+    "id": "u-003",
+    "name": "Arun Prakash",
+    "email": "officer@agricoop.gov.in",
+    "password": "Gov@123",
+    "role": "government",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "designation": "District Agriculture Officer"
+  }
+]

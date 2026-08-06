@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/* ─── Custom Tailwind Theme ──────────────────────────────────────────────── */
+@theme {
+  /* Fonts */
+  --font-sans: 'Inter', 'Noto Sans', 'Source Sans Pro', system-ui, sans-serif;
+  --font-display: 'Inter', 'Noto Sans', system-ui, sans-serif;
+
+  /* Official Government Colors */
+  --color-goi-green: #1B5E20;
+  --color-goi-green-dark: #0A3D0C;
+  --color-goi-saffron: #F57C00;
+  --color-goi-saffron-dark: #E65100;
+  --color-goi-navy: #0D47A1;
+  --color-goi-navy-dark: #002171;
+  
+  /* Status Colors */
+  --color-success: #2E7D32;
+  --color-success-light: #E8F5E9;
+  --color-warning: #F57C00;
+  --color-warning-light: #FFF3E0;
+  --color-error: #D32F2F;
+  --color-error-light: #FFEBEE;
+  --color-info: #0277BD;
+  --color-info-light: #E1F5FE;
+
+  /* Backgrounds & Surfaces */
+  --color-bg-body: #F5F7FA;
+  --color-bg-card: #FFFFFF;
+  --color-border: #E5E7EB;
+
+  /* Text Colors */
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #4B5563;
+  --color-text-muted: #6B7280;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Spacing */
+  --spacing-touch: 3rem; /* 48px minimum touch target for accessibility */
+}
+
+/* ─── Base Styles ────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-body);
+  color: var(--color-text-primary);
+  min-height: 100dvh;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Scrollbar Styling ──────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-body);
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* ─── Selection ──────────────────────────────────────────────────────────── */
+::selection {
+  background-color: rgba(27, 94, 32, 0.2);
+  color: var(--color-goi-green-dark);
+}
+
+/* ─── Focus Ring (Accessibility) ─────────────────────────────────────────── */
+:focus-visible {
+  outline: 3px solid var(--color-goi-saffron);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Leaflet Map Overrides (Clean GIS Style) ────────────────────────────── */
+.leaflet-container {
+  background: #E5E3DF !important;
+  font-family: var(--font-sans) !important;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+.leaflet-control-zoom a {
+  background-color: var(--color-bg-card) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border) !important;
+  transition: background 0.2s ease;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: var(--color-bg-body) !important;
+}
+
+/* ─── Print Styles ───────────────────────────────────────────────────────── */
+@media print {
+  .no-print { display: none !important; }
+  body { 
+    background: white !important; 
+    color: black !important; 
+  }
+  @page {
+    margin: 1cm;
+  }
+}
